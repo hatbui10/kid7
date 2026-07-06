@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lớp KID E7</title>
+<title>Lớp SKY-KID</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, sans-serif; -webkit-tap-highlight-color: transparent; }
 body { background-color: #050508; color: #e0e0e6; padding: 30px 3px 20px 3px; }
@@ -42,10 +42,10 @@ h3 { color: #ff007f; text-shadow: 0 0 10px rgba(255, 0, 127, 0.5); font-size: 1.
 </style>
 </head>
 <body>
-<h2>Lớp: KID E7</h2>
+<h2>Lớp: SKY-KID</h2>
 <div class="class-stats" id="classStats">Sĩ số: 0 | Có mặt: 0 | Vắng: 0</div>
 <div class="class-panel">
-<h3>Danh Sách: KID E7</h3>
+<h3>Danh Sách: SKY-KID</h3>
 <br>
 <div class="add-student-box">
 <input type="text" id="newStudentName" placeholder="Dòng 1: Nhập họ và tên...">
@@ -121,23 +121,247 @@ const defaultStudents = [
     },
     {
         "id": 9,
+        "name": "Đặng Phúc Minh",
+        "phone": "0905408929",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 10,
         "name": "Trần Khôi Nguyên",
         "phone": "0967738270",
         "status": "present",
         "note": ""
     },
     {
-        "id": 10,
-        "name": "Đặng Phúc Minh",
-        "phone": "0905408929",
+        "id": 11,
+        "name": "Lương Thiện",
+        "phone": "0915208815",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 12,
+        "name": "Bùi Phan Anh",
+        "phone": "0359053629",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 13,
+        "name": "Nguyễn Lê Bảo Hân",
+        "phone": "0832888266",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 14,
+        "name": "Phạm Minh Châu",
+        "phone": "0968339393",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 15,
+        "name": "Dương Hải Phong",
+        "phone": "0948394443",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 16,
+        "name": "Giang Minh Quân",
+        "phone": "0916559799",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 17,
+        "name": "Phạm Anh Thư",
+        "phone": "0973219520",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 18,
+        "name": "Nguyễn Hà Bảo Hân",
+        "phone": "0902007172",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 19,
+        "name": "Nguyễn Tú Anh",
+        "phone": "0945884868",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 20,
+        "name": "Phạm Bảo Minh",
+        "phone": "0962671917",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 21,
+        "name": "Lê Thế Vinh",
+        "phone": "0977686887",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 22,
+        "name": "Đỗ Gia Bách",
+        "phone": "0912828033",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 23,
+        "name": "Lê Tiến Đức",
+        "phone": "0373253378",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 24,
+        "name": "Đặng Nguyễn Phương Linh",
+        "phone": "0772293333",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 25,
+        "name": "Hoàng Trung Thành",
+        "phone": "0869733333",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 26,
+        "name": "Tạ Quang Hà Minh",
+        "phone": "0989359859",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 27,
+        "name": "Nguyễn Ngọc Bảo Hân",
+        "phone": "0946721485",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 28,
+        "name": "Đặng Minh Trí",
+        "phone": "0936663280",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 29,
+        "name": "Lương Ngọc Đăng Quang",
+        "phone": "0962552042",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 30,
+        "name": "Tô Thanh Gia Linh",
+        "phone": "0934660145",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 31,
+        "name": "Nguyễn Hùng Anh",
+        "phone": "0912439766",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 32,
+        "name": "Hoàng Kim Tuấn Anh Bin (anh)",
+        "phone": "0942725882",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 33,
+        "name": "Hoàng Kim Việt Anh Bon",
+        "phone": "0942725882",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 34,
+        "name": "Chung Đức Kiên",
+        "phone": "0977516766",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 35,
+        "name": "Nguyễn Quang Thành",
+        "phone": "0978858499",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 36,
+        "name": "Lê Ngọc Anh",
+        "phone": "0935115777",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 37,
+        "name": "Vũ Khánh Anh Phúc",
+        "phone": "0377564277",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 38,
+        "name": "Điền Phương Linh",
+        "phone": "0979153900",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 39,
+        "name": "Trần Quang Huy",
+        "phone": "0988284122",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 40,
+        "name": "Lê Minh Phương",
+        "phone": "0978007173",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 41,
+        "name": "Nguyễn Đăng Phong (bé)",
+        "phone": "0358342931",
+        "status": "present",
+        "note": ""
+    },
+    {
+        "id": 42,
+        "name": "Quang Điền",
+        "phone": "0912635718",
         "status": "present",
         "note": ""
     }
 ];
-let myClass = { name: "KID E7", students: [] };
+let myClass = { name: "SKY-KID", students: [] };
 function displayPhone(p) { if(!p || p==='Chưa có') return 'Chưa có'; let c = p.replace(/\s+/g, ''); if(c.length===10) return c.substring(0,4)+' '+c.substring(4,7)+' '+c.substring(7); return p; }
-function loadData() { const saved = localStorage.getItem('classData_KID%20E7'); if(saved) { myClass.students = JSON.parse(saved); } else { myClass.students = defaultStudents; saveData(); } }
-function saveData() { localStorage.setItem('classData_KID%20E7', JSON.stringify(myClass.students)); }
+function loadData() { const saved = localStorage.getItem('classData_SKY-KID'); if(saved) { myClass.students = JSON.parse(saved); } else { myClass.students = defaultStudents; saveData(); } }
+function saveData() { localStorage.setItem('classData_SKY-KID', JSON.stringify(myClass.students)); }
 window.onload = function() { loadData(); renderStudentList(); renderAbsentList(); updateStats(); };
 function updateStats() { const total = myClass.students.length; const absent = myClass.students.filter(s => s.status === 'absent').length; const present = total - absent; document.getElementById('classStats').innerText = 'Sĩ số: ' + total + ' | Có mặt: ' + present + ' | Vắng: ' + absent; }
 function addNewStudent() { const nameInput = document.getElementById('newStudentName'); const phoneInput = document.getElementById('newStudentPhone'); const name = nameInput.value.trim(); const phone = phoneInput.value.trim().replace(/\s+/g, '') || 'Chưa có'; if(name === '') { alert('Vui lòng nhập tên!'); return; } const nextId = myClass.students.length > 0 ? Math.max(...myClass.students.map(s => s.id)) + 1 : 1; myClass.students.push({ id: nextId, name: name, phone: phone, status: 'present', note: '' }); saveData(); nameInput.value = ''; phoneInput.value = ''; renderStudentList(); renderAbsentList(); updateStats(); }
